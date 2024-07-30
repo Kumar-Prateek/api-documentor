@@ -494,6 +494,7 @@ const ApiDocumentForm = () => {
                           color="primary"
                           variant="contained"
                           className="bg-blue-500 text-white"
+                          onClick={() => push({ key: "", value: "" })}
                         >
                           Add Form Data Field
                         </Button>
